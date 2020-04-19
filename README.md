@@ -1,5 +1,5 @@
 # COVID-19 Dashboard 
-This [dashboard](https://chschoenenberger.shinyapps.io/covid19_dashboard/) shows recent developments of the COVID-19 pandemic. The latest
+This [dashboard](https://oirad.shinyapps.io/covid19_dashboard/) shows recent developments of the COVID-19 pandemic. The latest
 open data on the COVID-19 spread are regularly downloaded and displayed in
 a map, summary tables, key figures and plots.
 
@@ -18,21 +18,9 @@ better overview of the current situation concerning the COVID-19 idea. I hereby
 invite all of you to contribute to this project with additional visualizations,
 information etc.
 
-## Installation
-First install R and your favourite IDE on your machine (I suggest RStudio
-or IntelliJ Community Edition with R plugin). To run the dashboard on your 
-own machine, clone the repository and install 
-[renv](https://rstudio.github.io/renv/articles/renv.html). Renv is a dependency
-management tool for R. After installing call ``renv::restore()``. This will
-get all libraries in renv.lock and install them on your machine. Afterwards
-you should be able to run the dashboard by calling ``shiny::runApp()``.
+## Installation & publishing
+For further installation & publishing you can visit [Christoph Schoenenberger dashboard](https://github.com/chschoenenberger/covid19_dashboard)
 
-### Publishing
-I used [RStudio Connect](https://rstudio.com/products/connect/) with 
-[Shinyapps.io](https://www.shinyapps.io/) to publish this dashboard. As
-the rsconnect library currently does not run smoothly with renv, 
-deactivate renv by calling ``renv::deactivate()``. Afterwards you should
-be able to deploy the dashboard to Shinyapps using ``rsconnect::deployApp()``.
 
 ## Contribute
 If you want to add any visualization or further information feel free to create
@@ -46,8 +34,8 @@ are not able to verify your expertise.
 
 ## Bugs, Issues & Enhancement Requests
 If you find any bug / issue or have an idea how to improve the dashboard,
-please create an [issue](https://github.com/chschoenenberger/covid19_dashboard/issues). 
+please create an [issue](https://github.com/disenodc/covid19_dashboard_argentina/issues). 
 I will try to look into it as soon as possible.
 
 ## License
-MIT © Christoph Schönenberger
+MIT © Christoph Schönenberger | © Dario Ceballos (readapt Argentina, state/province)
